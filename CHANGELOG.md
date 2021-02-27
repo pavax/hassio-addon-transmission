@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Provide addon as repository
 - Add documentation to embed Transmission in hass
 
+## [1.2.1] - 2021-02-27
+### Added
+- Added customization config for `download_dir` and `incomplete_dir`
+
 ## [1.2.0] - 2018-08-24
 ### Added
 - Parameters requirements

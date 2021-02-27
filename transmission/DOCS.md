@@ -23,6 +23,9 @@ Transmission add-on configuration:
 {
   "log_level": "info",
   "authentication_required": false,
+  "download_dir": "",
+  "incomplete_dir": "",
+  "incomplete_dir_enabled": true,
   "username": "",
   "password": "",
   "openvpn_enabled": false,
@@ -61,6 +64,18 @@ The username for authentication.
 ### Option: `password`
 
 The password for authentication.
+
+### Option: `incomplete_dir`
+
+Configure to directory to store incomplete downloads
+
+### Option: `download_dir`
+
+Configure to directory to store completed downloads
+
+### Option: `incomplete_dir_enabled`
+
+This option can be used to disable storing a incomplete download into a separate directory
 
 ### Option: `openvpn_enabled`
 
